@@ -20,26 +20,24 @@ nav {
   background-color: #0b0b0b;
   position: fixed;
   bottom: 0;
-  height: 60px;
+  height: 8vh;
   overflow: hidden;
 }
 nav ul {
   position: absolute;
-  top: 0;
-  left: 0;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-  width: 140vw;
+  margin-top: 1vh;
+  width: 100vw;
 }
 nav li {
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0;
   float: left;
   display: inline-block;
-  height: 44px;
-  margin-bottom: 2px;
-  line-height: 50px;
-  width: 20vw;
+  height: 6vh;
+  line-height: 6vh;
+  /* width: 10vw; */
   text-align: center;
   color: #555;
   transition: background-color 0.5s 0.2s ease, color 0.3s ease;
@@ -127,7 +125,7 @@ section {
   display: flex;
 }
 section .title {
-  max-width: 60%;
+  max-width: 70%;
   width: 100%;
   align-self: center;
   transform: translateY(-50px);
@@ -137,18 +135,20 @@ section .title {
 }
 section .title span {
   display: inline-block;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   color: #efefef;
   width: 100%;
   text-transform: uppercase;
   transform: translateX(-100%);
   animation: byBottom 1s ease both;
-  font-weight: 600;
+  font-weight: 400;
   /* letter-spacing: 0.25vw; */
 }
 section .title span:last-child {
-  font-size: 1.5rem;
+  padding-left: 2%;
+  font-size: 1rem;
   animation: byBottom 1s 0.25s ease both;
+  font-weight: 100;
 }
 section .title span a {
   position: relative;
