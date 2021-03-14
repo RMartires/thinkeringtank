@@ -1,0 +1,23 @@
+html {
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+nav li {
+  font-size: 1.4rem;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 200;
+}
+
+.link{
+  color: yellow;
+}
+
+@media only screen and (min-width: 600px) {
+  nav li {
+    font-size: 1rem;
+  }
+}
